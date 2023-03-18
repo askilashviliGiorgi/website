@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Mulish:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        * {
+            margin: 0;
+        }
+        .color_gray {
+            background-color: rgba(242, 242, 242, 1);
+        }
+        .repeated_container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 17px 0;
+        }
+        .header_socialmedia_logo {
+            list-style: none;
+
+        }
+        ul {
+            display: flex;
+            gap: 17px;
+        }
+        .inline_block {
+            display: inline-block;
+        }
+        .brand_name {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 800;
+            font-size: 35px;
+            color:rgba(28, 39, 82, 1)
+        }
+        .color_ll {
+        color: rgba(255, 179, 66, 1)
+       }
+        .brand_name_container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+
+        }
+        div.brand_name_container {
+            justify-content: space-between;
+        }
+        .head_contact {
+            display: flex;
+            justify-content: space-between;
+        }
+        .inline_flex {
+            display: inline-flex;
+        }
+        .mail_square {
+            position: relative;
+            left: 79px;
+             bottom: 21px;
+        }
+        .mail_sign {
+            position: relative;
+            bottom: 26px;
+            left: 50px;
+        }
+        .phone_sign {
+            position: relative;
+            left: 52px;
+            bottom: 17px;
+
+        }
+        .contact_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            padding-left: 20px;
+        }
+
+        .contact_text_style_1 {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(28, 39, 82, 1);
+
+        }
+
+        .contact_text_style_2 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: rgba(126, 126, 126, 1)
+        }
+        .menu_container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(255, 179, 66, 1);
+            position: relative;
+            top: 39px;
+        }
+        div.menu_container div ul {
+            list-style: none;
+        }
+        .menu_list_style {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 34.5px 14px;
+            
+        }
+        .menu_question {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            background-color:rgba(28, 39, 82, 1);
+            padding: 20px 22px;
+            position: relative;
+            right: 14px;
+            text-decoration: none;
+        }
+        div.menu_question a {
+            color: rgba(255, 255, 255, 1)
+        }
+        a:link {
+            text-decoration: none;
+            
+        }
+        a {
+            color: rgba(47, 47, 47, 1);
+        }
+        .color_overlay {
+            height: 1199px;
+            background: radial-gradient(60.12% 104.01% at 81.74% 32.31%, rgba(40, 43, 53, 0) 2.98%, rgba(0, 0, 0, 0.75) 100%),
+            url(./Photo.png);
+            background-size: cover;
+            position: relative;
+            bottom: 22px;
+            z-index: -1;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            height: 924px;
+            
+        }
+        .content { 
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 21px;
+            width: 619px;
+            padding-left: 360px;
+        }
+       .background__text1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 12px 16px;
+       }
+       .background__text2 {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        color: rgba(255, 255, 255, 1);
+       }
+       .background__button {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 33px;
+        background-color: rgba(255, 179, 66, 1);
+        color: rgba(28, 39, 82, 1);
+        border: none;
+       }
+       .services__button {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 43px;
+        background-color: rgba(255, 179, 66, 1);
+        color: rgba(28, 39, 82, 1);
+        border: none;
+       }
+       .aboutus {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+       }
+       .aboutus_box {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+       }
+       .aboutus__box--longtext {
+        width: 600px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(126, 126, 126, 1);
+       }
+       .aboutus__box--35 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 38px;
+       }
+       .aboutus__box--35text {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-self: center;
+        padding-left: 30px;
+       }
+       .aboutus__box--pretitle {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        background-color: rgba(244, 244, 244, 1);
+        color: rgba(28, 39, 82, 1);
+       }
+       .aboutus__box--container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       }
+       div.aboutus__box--container1 div:first-child {
+        display: flex;
+        align-items: center;
+       }
+       .aboutus__box--pretitle-padding {
+        padding-left: 12px;
+       }
+       .aboutus_box_padding {
+        background-color: rgba(244, 244, 244, 1);
+        padding: 9px 16px;
+        box-sizing: content-box;
+       }
+       .aboutus__box--container1-title {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 45px;
+        color: rgba(28, 39, 82, 1);
+        padding-bottom: 20px;
+        padding-top: 10px;
+       }
+       div.aboutus__box--35-number div:nth-child(2) {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        color: rgba(28, 39, 82, 1);
+       }
+       .aboutus__box--35-number {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        text-align: center;
+        gap: 12px;
+        background-color: rgba(244, 244, 244, 1);
+        padding: 35px;
+        
+       }
+       div.aboutus__box--35text>div {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(126, 126, 126, 1);
+       }
+      
+       .services__box {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 179, 66, 1);
+        width: 100%;
+        height: 750px;
+       }
+       .service__box--allinfo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+       }
+       .service__box--allinfo--firstdiv {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        align-items: center;
+        padding-top: 127px;
+        
+       }
+       .service_box--allinfo--text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(28, 39, 82, 1);
+        text-align: center;
+        padding-bottom: 32px;
+       }
+       .services__box--list {
+        list-style: none;
+        
+        
+       }
+       .services__box--list li {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        border: 2px solid rgba(28, 39, 82, 1);
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        width: 221px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+       }
+       div.service__box--allinfo--firstdiv h1:first-child {
+        padding-bottom: 20px;
+       }
+       h1 {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 45px;
+       }
+       div.services__box div:nth-child(2) p:nth-child(1) {
+        color: rgba(28, 39, 82, 1);
+        background-color: rgba(244, 244, 244, 1);
+       }
+       .services__box--box2 {
+        width: 1200px;
+        background-color: rgba(255, 255, 255, 1);
+        
+        
+       }
+       .services__box--box21 {
+        display: flex;
+        width: 1200px;
+        justify-content: center;
+        background-color:rgba(255, 255, 255, 1) ;
+        align-items: center;
+       }
+       .services__box--box211 {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        align-items: flex-start;
+       }
+       .service__box--box21--position {
+        position: absolute;
+        top: 2310px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+       }
+       .ourservices__background {
+        height: 1330px;
+        background-color: rgba(244, 244, 244, 1);
+       }
+       .ourservices__wrapper {
+        padding-top: 295px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .ourservices__background--title1 {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        color: rgba(28, 39, 82, 1);
+        background-color: rgba(255, 255, 255, 1);
+        padding: 11px 16px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+       }
+       .ourservices__background--title2 {
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: 45px;
+        color: rgba(28, 39, 82, 1);
+        padding-top: 25px;
+        padding-bottom: 25px;
+       }
+       .ourservices__background--title-text {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(126, 126, 126, 1);
+       }
+       .ourservices__background--title--wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 690px;
+        text-align: center;
+        padding-bottom: 37px;
+       }
+       .background__title--group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .ourservices_box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 1200px;
+       }
+       .ourservices_box--title {
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(255, 179, 66, 1);
+        padding-left: 35px;
+        padding-bottom: 11px;
+       }
+       .ourservices_box--text {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(210, 210, 210, 1);
+        width: 310px;
+        padding-left: 35px;
+       }
+       .ourservices_box--readmore {
+        font-family: 'Inter';
+        padding-left: 35px;
+        padding-top: 30px;
+       
+       }
+       div.ourservices_box--readmore a {
+        list-style: none;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+       }
+       .ourservices_box--squares {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(28, 39, 82, 1);
+        height: 322px;
+        width: 383px;
+       }
+       .ourservices__icons {
+        padding-top: 47px;
+        padding-bottom: 15px;
+        padding-left: 35px;
+       }
+     .reasons__mainwrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 921px;
+        gap: 70px;
+     }
+     .reasons__mainlistbox {
+        display: flex;
+        justify-content: space-around;
+        background: radial-gradient(60.12% 104.01% at 81.74% 32.31%, rgba(40, 43, 53, 0) 2.98%, rgba(0, 0, 0, 0.75) 100%), url(./workerreasons.jpg);
+        background-repeat: no-repeat;
+        height: 921px;
+        width: 845px;
+     }
+     .background__blurr {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #000000;
+        gap: 23px;
+        background: rgba(28, 39, 82, 0.7);
+        backdrop-filter: blur(12.5px);  
+        width: 630px;
+        height: 693px;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        
+     }
+     div.background__blurr div {
+        display: inline-flex;
+        flex-direction: row;
+     }
+     .background__blurr--listnumber{
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: 25px;
+        background-color: rgba(255, 179, 66, 1);
+        color: rgba(28, 39, 82, 1);
+        width: 75px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 18px;
+     }
+     .background__blurr--listtext {
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(255, 255, 255, 1);
+        width: 304px;
+        padding-left: 18px;
+        align-items: center;
+        border: 1px solid #FFFFFF;
+     }
+     .reasons__maintextbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+     }
+     .reasons__maintextbox--button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;    
+        background-color: rgba(244, 244, 244, 1);
+        padding: 11px 16px;
+     }
+    .textinter--style {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(126, 126, 126, 1);
+    }
+    div.reasons__maintextbox div:nth-child(2) div:first-child {
+        width: 508px;
+    }
+    .reasons__list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .reasons__list--rules {
+        display: flex;
+        flex-direction: column;
+        width: 513px;
+        gap: 5px;
+    }
+    .reasons__maintextbox--title-text-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    div.reasons__maintextbox--title-text-wrapper div:nth-child(2) {
+        width: 643px;
+    }
+    .reasons__maintextbox--title2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+    .reasons__maintextbox--title2 {
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(28, 39, 82, 1);
+    }
+    .reasons__list--rules div:nth-child(2) {
+        padding-left: 48px;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;    
+        background-color: rgba(244, 244, 244, 1);
+        padding: 11px 16px;
+    }
+    .gallery__title--box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;    
+        background-color: rgba(244, 244, 244, 1);
+        padding: 11px 16px;
+    }
+    .gallery__title--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 170px;
+        padding-bottom: 56px;
+        gap: 20px;
+    }
+    .gallery__title {
+        font-family: 'Mulish'; 
+        font-weight: 800;
+        font-size: 45px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .Gallery__container--wrapper {
+        height: 1134px;
+        background-color: rgba(28, 39, 82, 1);
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery__photo--wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .gallery__photo--box {
+        background-color: rgba(255, 255, 255, 1);
+        width: 444px;
+        height: 626px;
+    }
+    .gallery_title2--text {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(126, 126, 126, 1);
+    }
+    .gallery__title2 {
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(28, 39, 82, 1);
+        padding-top: 23px;
+        padding-bottom: 7px;
+    }
+
+    div.gallery__photo--box div:first-child {
+        padding-top: 20px;
+    }
+    .appointmentform__container--main {
+        display: flex;
+        justify-content: center;
+    }
+    .appointmentform__container--wrapper {
+        display: flex;
+        gap: 39px;
+        
+    }
+    .appointmentform__customer--box {
+        width: 580px;
+        height: 892px;
+        background-color: green;
+    }
+    .appointmentform__appointment--box {
+        width: 580px;
+        height: 892px;
+        background-color: green;
+    }
+    .button__box {
+        display: flex;
+        gap: 9px;
+        background-color: rgba(244, 244, 244, 1);
+        
+    }
+    .title__h2 {
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: 35px;
+        color: rgba(28, 39, 82, 1);
+    }
+    .title__h3 {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        color: rgba(28, 39, 82, 1);
+        padding: 12px 16px;
+        display: flex;
+        gap: 10px;
+    }
+    .customerreview__box--profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .customerreview__box--profile-name {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 39px;
+    }
+    .customerreview__box--endingicon {
+        padding-right: 39px;
+
+    }
+    .customerreview__box--review {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 22px;
+        color: rgba(126, 126, 126, 1);
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .customerreview__box--navigation-next {
+        padding-left: 39px;
+        padding-bottom: 39px;
+    }
+    .customerreview-question__box {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 179, 66, 1);
+        padding-top: 50px;
+    }
+    .title__h2--h1 {
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: 25px;
+        color: rgba(28, 39, 82, 1);
+        padding-top: 33px;
+        padding-bottom: 12px;
+    }
+    .customerreview__question--text {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(28, 39, 82, 1);
+        padding-right: 75px;
+        padding-bottom: 22px;
+    }
+    .customerreview-question__box--phonenumber {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+        padding-bottom: 50px;
+    }
+    .customerreview-question__box--phonenumber-style {
+        font-family: 'Mulish';
+        font-weight: 800;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 1);
+    }
+    div.customerreview-question__box div:nth-child(2) {
+      
+    }
+    div.customerreview-question__box div:nth-child(1) {
+        width: 190px;
+    }
+    .customerreview-question__box {
+        padding-left: 40px;
+    }
+    div.appointmentform__customer--box div:first-child {
+        width: 169px;
+    }
+   
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="color_gray">
+            <div class="repeated_container">
+                <p class="inline_block">Opening Hours: 06:00 to 20:00</p>
+                <div class="inline_block">
+                    <ul class="header_socialmedia_logo">
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="brand_name_container">
+            <p class="brand_name">BlueCo<span class="color_ll">ll</span>ar</p>
+
+            <div class="head_contact">
+                <div>
+                    <img src="./mailsquare.svg" class="mail_square" />
+                    <img src="./mailsign.svg" class="mail_sign" />
+                    <img src="./circle.svg" />
+                </div>
+                <div class="contact_text">
+                    <span class="contact_text_style_1"> Mail us</span>
+                    <span class="contact_text_style_2">info@Example.com</span>
+                </div>
+
+
+                <div>
+                    <img src="./phonesign.svg" class="phone_sign" />
+                    <img src="./circle.svg" />
+                </div>
+
+                <div class="contact_text">
+                    <div class="contact_text_style_1">Call Us</div>
+                    <div class="contact_text_style_2">+01 569 896 654</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu_container">
+        <div>
+            <ul class="menu_list_style">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu_question"><a href="#">Have Any Questions?</a></div>
+    </div>
+
+    
+    <div class="color_overlay">
+        <div class="content">
+            <div class="background__text1">
+                We Provide Electric Services For Industrial Project
+            </div>
+
+            <div class="background__text2">
+            We Are Professional Quality Services
+            </div>
+    
+            <div>
+                <input type="button" value="Our Services" class="background__button"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutus">
+
+        <div class="">
+            <img src="./aboutus.jpg" />
+        </div>
+
+        <div class="aboutus_box">
+            <div class="aboutus__box--container1">
+                <div class="aboutus_box_padding">
+                    <img src="./logoicon.svg"  class="aboutus__box--pretitle"/> 
+                    <span class="aboutus__box--pretitle aboutus__box--pretitle-padding">Welcome BlueCollar </span>
+                </div>
+                <div class="aboutus__box--container1-title">We Provide Your Future</div>
+                <div class="aboutus__box--longtext">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. 
+
+                    In pulvinar viverra diam, nec rutrum mauris maximus non. Aenean sed quam tristique, facilisis est ac, interdum velit.</div>
+            </div>
+            <div class="aboutus__box--35">
+                <div class="aboutus__box--35-number">
+                    <div>
+                        <img src="./35.svg" />
+                    </div>
+                    <div>Years Of Experiance</div>
+                </div>
+                <div class="aboutus__box--35text">
+                    <div>- Sed varius ipsum lacus </div> 
+                    <div>- Pulvinar tortor dignissim sit amet.</div>
+                    <div>- Quisque tristique diam quis placerat</div>
+                    <div>- Aliquam id ante suscipi fringilla.</div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div>
+        <div class="services__box">
+            <div class="service__box--allinfo">
+                <div class="service__box--allinfo--firstdiv">
+                    <h1 class="h1">Professional Main Services</h1>
+                    <p class="service_box--allinfo--text">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt.</p>
+                    <div>
+                        <ul class=services__box--list >
+                            <li>
+                                <img src="./residential.svg" />
+                                Commercial
+                            </li>
+                            <li>
+                                <img src="./residential.svg" />
+                                Residential
+                            </li>
+                            <li>
+                                <img src="./residential.svg" />
+                                Industrial
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services__box--box21 service__box--box21--position">
+                    <div class="services__box--box211">
+                        <p class="background__text1">
+                            <img src="./buildingyellow.svg" />
+                            Based on Commercial
+                        </p>
+                        <h1 class="h1">Commercial</h1>
+                        <p class="aboutus__box--longtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua. Ut enim ad minimquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                            commodo consequat.</p>
+                        <p class="aboutus__box--longtext"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.ullamco laboris nisi ut aliquip ex ea 
+                            commodo consequat.</p>
+                        <div>
+                            <input type="button"  value="Read More" class="services__button" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="./factory.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   <div class="ourservices__background">
+        <div class="ourservices__wrapper">
+            <div class=ourservices__background--title--wrapper>
+                <div class="background__title--group">
+                    <div class="ourservices__background--title1">
+                        <img src="./ourservicesicon.svg" /> 
+                        <div>Our Services</div>
+                    </div>
+                    <div class="ourservices__background--title2">Our Services</div>
+                    <div class="ourservices__background--title-text">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt.</div>
+                </div>
+            </div>
+            <div class="ourservices_box">
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./AirConditioner.svg" />
+                    </div>
+                    <div class="ourservices_box--title">Air condition service </div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./electricsvg.svg" />
+                    </div>
+                    <div class="ourservices_box--title">Electrical installation</div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./generalbuilder.svg" />
+                    </div>
+                    <div class="ourservices_box--title">General Builder</div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./Security.svg" />
+                    </div>
+                    <div class="ourservices_box--title">Security System</div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="3">Read More</a>
+                    </div>
+                </div>
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./Maintenance.svg" />
+                    </div>
+                    <div class="ourservices_box--title">Service & maintenance</div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="ourservices_box--squares">
+                    <div class="ourservices__icons">
+                        <img src="./houseextention.svg" />
+                    </div>
+                    <div class="ourservices_box--title">House Extensions</div>
+                    <div class="ourservices_box--text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</div>
+                    <div class="ourservices_box--readmore">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+    
+   <div class="reasons__mainwrapper">
+        <div class="reasons__mainlistbox">
+            <div class="background__blurr">
+                <div>
+                    <div class="background__blurr--listnumber">3956</div>
+                    <div class="background__blurr--listtext">Project Done</div>
+                </div>
+
+                <div>
+                    <div class="background__blurr--listnumber">851</div>
+                    <div class="background__blurr--listtext">People Working</div>
+                </div>
+
+                <div>
+                    <div class="background__blurr--listnumber">265</div>
+                    <div class="background__blurr--listtext">Business Partner</div>
+                </div>
+
+                <div>
+                    <div class="background__blurr--listnumber">854+</div>
+                    <div class="background__blurr--listtext">Happy Customers</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reasons__maintextbox">
+            <div class="reasons__maintextbox--button">
+                <img src="./ourservicesicon.svg" />
+                <div>Why Choose Us</div>
+            </div>
+            <div class="reasons__maintextbox--title-text-wrapper">
+                <div class="ourservices__background--title2">Few Reasons Why You Should Choose Us</div>
+                <div class="textinter--style">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
+                In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. </div>
+            </div>
+
+            <div class="reasons__list">
+                <div class="reasons__list--rules">
+                    <div class="reasons__maintextbox--title2"><img src="./tickicon.svg" /> 35 Years Experiance</div>
+                    <div class="textinter--style">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </div>
+                </div>
+
+                <div class="reasons__list--rules">
+                    <div class="reasons__maintextbox--title2"><img src="./tickicon.svg" />Excellencee Certificate</div>
+                    <div class="textinter--style">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </div>
+                </div>
+
+                <div class="reasons__list--rules">
+                    <div class="reasons__maintextbox--title2"><img src="./tickicon.svg" />Affordable Price</div>
+                    <div class="textinter--style">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </div>
+                </div>
+            </div>
+        </div>    
+   </div>
+
+   
+    <div class="Gallery__container--wrapper">
+        <div class="gallery__title--wrapper">
+            <div class="gallery__title--box">
+                <img src="./ourservicesicon.svg" />
+                <div class="gallery__button">The Gallery</div>
+            </div>
+                
+            <div class="gallery__title">Check Our Recent Work</div>
+        </div>
+        <div class="gallery__photo--wrapper">
+            <div class="gallery__photo--box">
+                <div>
+                    <img src="./galleryworker1.svg" />
+                </div>
+                <div class="gallery__title2">Electrical & Maintenance</div>
+                <div class="gallery_title2--text">Electric, Instalation</div>
+            </div>
+            <div class="gallery__photo--box">
+                <div>
+                    <img src="./galleryworker2.svg" />
+                </div>
+                <div class="gallery__title2">Interior/Exterior Services</div>
+                <div class="gallery_title2--text">House,  Office </div>
+            </div>
+            <div class="gallery__photo--box">
+                <div>
+                    <img src="./galleryworker3.svg" />
+                </div>
+                <div class="gallery__title2">Car Repair & Maintenance</div>
+                <div class="gallery_title2--text">Car, Bike, load vehicle</div>
+            </div>
+            <div class="gallery__photo--box">
+                <div>
+                    <img src="./galleryworker4.svg" />
+                </div>
+                <div class="gallery__title2">Electrical installation</div>
+                <div class="gallery_title2--text">Instalation </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="appointmentform__container--main">
+        <div class="appointmentform__container--wrapper">
+            <div class="appointmentform__customer--box">
+                    <div class="button__box">
+                        <div class="title__h3"><img src="./ourservicesicon.svg" />Testimonial</div>
+                    </div>
+                    <div class="title__h2">Customers Say</div>
+
+                <div class="customerreview__box">
+                    <div class="customerreview__box--profile">
+                        <div class="customerreview__box--profile-name">
+                            <img src="./reviewimage.svg" />
+                            <div>
+                                <div>Nancy Luther</div>
+                                <div>New York</div>
+                            </div>
+                        </div>
+                        <div class="customerreview__box--endingicon">
+                            <img src="./commacion.svg" />
+                        </div>
+                    </div>
+                    <div class="customerreview__box--review">
+                        Pellentesque vehicula eros neque, maximus mattis est sagittis facilisi.”In sed pretium metus”. 
+                        Ppretium id urna sit amet tincidunt. Lorem ipsum dolor sit amet,tristique. Duis cursus,in elementum tristique
+                    </div>
+                    <div class="customerreview__box--navigation-next">
+                        <img src="./Navigation.svg" />
+                    </div>
+                </div>
+
+                <div class="customerreview-question__box">
+                    <div class="button__box">
+                        <div class="title__h3"><img src="./ourservicesicon.svg" />Any Questions</div>
+                    </div>
+
+                    <div class="title__h2--h1">99.9% Customer Satisfation Based</div>
+                    <div class="customerreview__question--text">If you have any questions or need help contactwith our team, or call</div>
+                    <div class="customerreview-question__box--phonenumber">
+                        <img src="./phoneicon.svg" />
+                        <div class="customerreview-question__box--phonenumber-style">(003) 123 456 7890</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="appointmentform__appointment--box"></div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+</body>
+
+
+
+</html>
