@@ -1,0 +1,157 @@
+/* || General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, 
+ul {
+  list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}   
+
+/* ||Typography */
+
+:root {
+    --lightGrey: rgba(242, 242, 242, 1);
+    --darkGrey: rgba(210, 210, 210, 1);
+    --darkGreyTwo: rgba(126, 126, 126, 1);
+    --yellow: rgba(255, 179, 66, 1);
+    --blue: rgba(28, 39, 82, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --inter: "Inter", sans-serif;
+    --mulish: "Mulish", sans-serif;
+}
+
+/* || Utilities */
+
+button,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--blue);
+}
+
+h1 {
+    font: 800 60px var(--mulish);
+    color: var(white);
+}
+
+h2 {
+    font: 800 45px var(--mulish);
+}
+
+h3 {
+    font: 800 35px var(--mulish);
+}
+
+h4 {
+    font: 700 25px var(--mulish);
+}
+
+h5 {
+    font: 700 20px var(--mulish);
+}
+
+p {
+    font: 400 18px var(--inter);
+    color: var(--darkGreyTwo);
+  }
+
+.general-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.general-grid {
+    display: grid;
+    place-items: center;
+}
+
+.general-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* || Header styles */
+
+.header-social-media {
+    background-color: var(--lightGrey);
+}
+
+.header-social-media__logos {
+    display: flex;
+    gap: 15px;
+    padding: 21px 0;
+}
+
+.header-social-media__logos--blue {
+    color: var(--blue);
+}
+.header-social-media p:first-child {
+    color: var(--blue);
+}
+
+.header-contacts {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 40px 0 45px 0;
+}
+
+.header-menu-wrapper {
+    background-color: var(--yellow);
+    position: relative;
+    bottom: 27px;   
+}
+.header-menu__list {
+   gap: 55px;
+   padding: 34px 0 34px 14px;
+}
+.header-menu__question {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px 22px;
+}
+
+div.header-menu-wrapper a:nth-child(2) {
+    padding-right: 14px;
+}
+
+.our-services {
+    background: radial-gradient(60.12% 104.01% at 81.74% 32.31%, rgba(40, 43, 53, 0) 2.98%, rgba(0, 0, 0, 0.75) 100%),
+    url(../images/workers-background.svg);
+    background-size: cover;
+    height: 924px;
+}
