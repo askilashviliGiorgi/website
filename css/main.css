@@ -26,16 +26,6 @@ button {
   text-transform: capitalize;
 }
 
-input[type=button] {
-    border: none;
-    background: none;
-    font-family: var(--inter);
-    font-weight: 500;
-    font-size: 18px;
-}
-
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -93,6 +83,15 @@ p {
     font: 400 18px var(--inter);
     color: var(--darkGreyTwo);
   }
+
+input[type=button] {
+    border: none;
+    background: none;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 18px;
+}
+
 
 .general-flex {
     display: flex;
