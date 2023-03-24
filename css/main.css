@@ -92,6 +92,10 @@ input[type=button] {
     font-size: 18px;
 }
 
+.general-button-style {
+    
+}
+
 
 .general-flex {
     display: flex;
@@ -106,16 +110,20 @@ input[type=button] {
     align-items: center;
     gap: 9px;
     flex: 1 1 auto;
+}
+
+.general-flex-button--grey {
     background-color: var(--backGrey);
 }
 
-div.general-flex-button img:first-child {
+
+.general-flex-button--icon-paddings {
     padding-left: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-div.general-flex-button input:nth-child(2) {
+.general-flex-button--text-paddings {
     padding-right: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -269,3 +277,84 @@ div.header-menu-wrapper a:nth-child(2) {
     justify-content: center;
     gap: 16px;
 }
+
+.main-services {
+    background-color: var(--yellow);
+}
+
+.main-services__content {
+    display: flex;
+    position: relative;
+    top: 127px;
+    gap: 40px;
+}
+
+.main-services__content-titles {
+    align-items: center;
+    gap: 32px;
+}
+
+.main-services__content-titles-header {
+    text-align: center;
+    gap: 18px;
+}
+
+.main-services__content-titles-description {
+    max-width: 687px;
+}
+
+.main-services__content-buttons {
+    gap: 30px;
+}
+
+.main-services__content-buttons--border-blue {
+    border: 1px solid var(--blue);
+    width: 221px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-services__content-button--blue {
+    color: var(--blue);
+}
+
+.main-services__content-button--icon {
+    width: 30px;
+    height: 30px;
+}
+
+div.main-services__content-buttons div:first-child {
+    background-color: var(--white)
+}
+
+.main-services__description-wrapper {
+    background-color: var(--white);
+}
+
+.main-services__description {
+    padding: 60px 66px;
+}
+
+.main-services__description-button {
+    display: flex;
+    align-self: flex-start;
+    background-color: var(--yellow);
+    padding: 20px 43px;
+}
+
+.main-services__description-paragraph {
+    gap: 30px;
+}
+
+.main-services__description-text {
+    padding-top: 26px;
+    padding-bottom: 52px;
+}
+
+.main-services__description-photo {
+    width: 470px;
+    height: 424px;
+    padding-right: 60px;
+}
+
