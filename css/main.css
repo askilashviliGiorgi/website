@@ -92,11 +92,6 @@ input[type=button] {
     font-size: 18px;
 }
 
-.general-button-style {
-    
-}
-
-
 .general-flex {
     display: flex;
     align-items: center;
@@ -241,6 +236,7 @@ div.header-menu-wrapper a:nth-child(2) {
 
 .welcome {
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .welcome-content {
@@ -357,4 +353,63 @@ div.main-services__content-buttons div:first-child {
     height: 424px;
     padding-right: 60px;
 }
+
+.services {
+    padding-top: 295px;
+
+}
+
+.services__button--center {
+    align-self: center;
+}
+
+.services__header-wrapper {
+    max-width: 687px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services-header {
+    gap: 21px;
+    padding-bottom: 40px;
+}
+
+.services-title-gap  {
+    gap: 10px;
+}
+
+.services__cards {
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.services__cards-item {
+    background-color: var(--blue);
+    padding: 47px 37px;
+    max-width: 308px;   
+}
+
+.services__cards-item-text {
+    color: var(--darkGrey);
+    padding-top: 11px;
+    padding-bottom: 30px;
+}
+
+.services__cards-utem-title {
+    color: var(--yellow);
+    padding-top: 20px;
+}
+
+.services__cards-button {
+    color: var(--darkGrey);
+}
+
+
+.services-wrapper {
+    background-color: var(--backGrey);
+}
+
+
 
