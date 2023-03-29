@@ -107,8 +107,17 @@ input[type=button] {
     flex: 1 1 auto;
 }
 
+.general-flex-column-two {
+    display: flex;
+    flex-direction: column;
+}
+
 .general-flex-button--grey {
     background-color: var(--backGrey);
+}
+
+.general-flex-button--white {
+    background-color: var(--white);
 }
 
 
@@ -409,7 +418,80 @@ div.main-services__content-buttons div:first-child {
 
 .services-wrapper {
     background-color: var(--backGrey);
+    padding-bottom: 150px;
 }
 
+.choose-list__number {
+    font-family: var(--mulish);
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--blue);
+    background-color: var(--yellow);
+    flex-basis: 25%;
+    padding: 17px 0;
+}
 
+.choose-list__text {
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 16px 22px;
+    flex-basis: 75%;
+}
 
+.choose-list__item {
+    display: flex;
+    min-width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-list-content {
+    gap: 23px;
+    background: rgba(28, 39, 82, 0.7);
+    border: 1px solid #000000;
+    backdrop-filter: blur(12.5px);
+    padding: 182px 115px 199px 115px;
+}
+
+.choose {
+    display: flex;
+    gap: 70px;
+}
+
+.choose-achievements {
+    background-image: url(../images/workers-blur.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 845px;
+    height: 921px;
+    display: grid;
+    place-items: center;
+}
+
+.choose-list-box {
+    gap: 23px;
+}
+
+.choose-describtion-content {
+    gap: 32px;
+    justify-content: center;
+}
+
+.choose-describtion__title {
+    max-width: 497px;
+}
+
+.choose-description__header {
+    gap: 22px;
+    max-width: 643px;
+}
+
+.choose-description__list {
+    gap: 40px;
+    max-width: 513px;
+}
+
+.hoose-description__list-item {
+    display: flex;
+    gap: 13px;
+}
