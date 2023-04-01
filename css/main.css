@@ -31,6 +31,11 @@ a {
     color: inherit;
 }   
 
+input[type=button] {
+    cursor: pointer;
+}
+
+
 /* ||Typography */
 
 :root {
@@ -184,15 +189,19 @@ input[type=button] {
 
 .header-menu-wrapper {
     background-color: var(--yellow);
-    position: absolute;
-    left: 353px;
-    top: 190px;
-      
+    position: relative;
+    top: 61px;
 }
+
+.herader-contact-wrapper {
+    height: 100px;
+}
+
 .header-menu__list {
    gap: 55px;
    padding: 34px 0 34px 14px;
 }
+
 .header-menu__question {
     background-color: var(--blue);
     color: var(--white);
@@ -494,4 +503,47 @@ div.main-services__content-buttons div:first-child {
 .hoose-description__list-item {
     display: flex;
     gap: 13px;
+}
+
+.gallery {
+    background-color: var(--blue);
+}
+
+.gallery-content {
+    padding-top: 169px;
+}
+
+.gallery-content__title--white {
+    color: var(--white);
+}
+
+.gallery-header {
+    align-items: center;
+    gap: 9px;
+}
+
+.gallery-header__button {
+    align-self: center;
+}
+
+.gallerry-recent-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 60px 0 169px;
+   
+}
+
+.gallerry-recent-work__item {
+    align-items: center;
+    background-color: var(--white);
+    padding: 18px 22px;
+}
+
+.gallerry-recent-work__item-header {
+    text-align: center;
+    padding-top: 23px;
 }
