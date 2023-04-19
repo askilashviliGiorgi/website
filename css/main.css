@@ -95,6 +95,17 @@ input[type=button] {
     font-family: var(--inter);
     font-weight: 500;
     font-size: 18px;
+    
+}
+
+input[type=submit] {
+    border: none;
+    background: none;
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .general-flex {
@@ -546,4 +557,249 @@ div.main-services__content-buttons div:first-child {
 .gallerry-recent-work__item-header {
     text-align: center;
     padding-top: 23px;
+}
+
+.appointment-content {
+    gap: 39px;
+    
+}
+
+.customers-title-box {
+    gap: 15px;   
+}
+
+.appointment__customer-review {
+    border: 1px solid rgba(221, 221, 221, 1);
+    padding: 49px 42px 39px 39px;
+    max-width: 581px;
+}
+
+.aappointment__customer-review-wrapper {
+    padding: 23px 0 33px;
+}
+
+.appointment__customer-bio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 11px;
+    flex: 1 1 auto;   
+}
+
+.appointment__customer-bio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+    
+}
+
+.appointment__customer-review-text {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+    padding-top: 17px;
+}
+.apointment__customer-review-footer-text h4:first-child {
+    font-weight: 800;
+}
+.appointment__customer-review span:first-child {
+    font-weight: 600;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.appointment__customer-review-footer {
+    background-color: var(--yellow);
+    gap: 22px;
+    padding: 50px 42px;
+}
+
+.apointment__customer-review-footer-text {
+    gap: 12px;
+}
+
+.appointment__customer-review-footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.apointment__customer-review-footer-number {
+    font-size: 30px;
+    color: var(--white);
+}
+
+.apointment__customer-review-footer-number-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.appointment-content {
+    padding-top: 150px;
+}
+
+.apointment__customer-review-footer-contact-text {
+    color: var(--blue);
+}
+
+.appointments-form-title {
+    padding-bottom: 23px;
+}
+
+.appointments__form-textarea {
+    padding: 21px 0 96px 33px;
+    font-size: 18px;
+    border: 1px solid rgba(221, 221, 221, 1);
+}
+
+.appointments__form-box {
+    gap: 30px;
+    padding: 52px 58px;
+}
+
+.appointments__button--yellow {
+    padding: 20px 197px;
+    background-color: var(--yellow);
+}
+
+.appointments__form-wrapper {
+    background-color: var(--backGrey);
+}
+
+.appointments-form-title {
+    gap: 15px;
+}
+
+.appointments__button-wrapper {
+    padding-top: 15px;
+}
+
+.appointments__form-box > input {
+    padding: 21px 0 21px 33px;
+    font-size: 18px;
+    border: 1px solid rgba(221, 221, 221, 1);
+}
+
+.appointment__clients-title {
+    align-items: center;
+    gap: 14px;
+}
+
+.appointment__clients-title-button {
+    align-self: center;
+}
+
+.appointment__clients-wrapper {
+    padding-top: 75px;
+    padding-bottom: 143px;
+    gap: 44px;
+}
+
+.appointment__clients--item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.pricing-background {
+    background-color: var(--backGrey);
+    padding-bottom: 200px;
+}
+
+.pricing-wrapper {
+    padding-top: 148px;
+}
+
+.pricing-content {
+    gap: 74px;
+}
+
+.pricing__header-title-wrapper {
+    gap: 9px;
+    max-width: 477px;
+}
+
+.pricing__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing__header-text-wrapper {
+    max-width: 579px;
+}
+
+.pricing__header-text {
+    text-align: justify;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pricing__item-header {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.pricimg__item-header-title {
+    gap: 3px;
+}
+
+.pricing__list--wrapper {
+   padding-top: 16px;
+   gap: 20px;
+}
+
+.pricing__list > div {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 25px;
+}
+
+.pricing__item--wrapper {
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.pricing__button {
+    background-color: var(--yellow);
+    padding: 20px 108px;
+    text-align: center;
+}
+
+.pricing__button--white {
+    border: 1.5px solid var(--yellow);
+    padding: 20px 108px;
+    text-align: center;
+}
+
+.pricing__item-popular {
+    gap: 10px;
+}
+
+.pricing__item-popular p:first-child {
+    background-color: var(--yellow);
+    font-family: var(--inter);
+    font-size: 16px;
+    color: var(--blue);
+    padding: 5px 12px;
+    align-self: end;
+}
+
+.pricing-footer__points-content {
+    display: flex;
+    gap: 13px;
+}
+
+.pricing-footer__points-content-text {
+    gap: 5px;
 }
