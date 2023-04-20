@@ -99,8 +99,6 @@ input[type=button] {
 }
 
 input[type=submit] {
-    border: none;
-    background: none;
     font-family: var(--inter);
     font-weight: 600;
     font-size: 20px;
@@ -857,4 +855,43 @@ div.main-services__content-buttons div:first-child {
 
 .blog-content__items-text {
     line-height: 144.52%;
+}
+
+.newslatter-wrapper {
+    background-color: var(--yellow);
+}
+
+.newslatter-content__heading-text {
+    color: var(--blue);
+}
+
+.newslatter-content__heading-text span:first-child {
+    font-weight: 600;
+}
+
+.newslatter-content__heading {
+    max-width: 585px;
+    gap: 11px;
+}
+
+.newslatter-content {
+    justify-content: space-between;
+    padding: 110px 0 110px;
+}
+
+.newslatter-content__subscribe-email {
+    padding: 23px 138px 23px 19px;
+    border: 1.5px solid #FFFFFF;
+    background-color: var(--yellow);
+}
+
+.newslatter-content__subscribe-submit {
+    padding: 20px 47px 19px 46px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.appointments__button-submit {
+    border: none;
+    background-color: var(--yellow);
 }
