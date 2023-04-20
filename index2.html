@@ -1,825 +1,916 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>BlueCollar</title>
-    
-</head>
-<body>
-    <header>
-        <div class="header-social-media">
-            <div class="general-content general-flex">
-                <p>Opening Hours: 06:00 to 20:00</p>
-                <div>
-                    <ul class="header-social-media__logos">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>BlueCollar</title>
+        
+    </head>
+    <body>
+        <header>
+            <div class="header-social-media">
+                <div class="general-content general-flex">
+                    <p>Opening Hours: 06:00 to 20:00</p>
+                    <div>
+                        <ul class="header-social-media__logos">
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/Insta.svg" alt="#"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/facebook.svg" alt="#"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/Twiter.svg" alt="#"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/Pintrest.svg" alt="#"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="herader-contact-wrapper">
+                <div class="general-content general-flex">
+                    <div>
+                        <img src="./icons/Logo.svg" alt="#"/>
+                    </div>
+
+                    <div class="header-contacts">
+                        <div class="header-contact">
+                            <img src="./icons/mail.svg" alt="#" width="68px" height="68px" />
+                            <div>
+                                <h5>Mail Us</h5>
+                                <p>Info@Example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="header-contact">
+                            <img src="./icons/phone.svg" alt="#" width="68px" height="68px" />
+                            <div>
+                                <h5>Call Us</h5>
+                                <p>+01 569 896 654</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="general-content general-flex header-menu-wrapper">
+                <div class="header-menu">
+                    <ul class="general-flex header-menu__list">
                         <li>
                             <a href="#">
-                                <img src="./icons/Insta.svg" alt="#"/>
+                                <h5>Home</h5>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./icons/facebook.svg" alt="#"/>
+                                <h5>About Us</h5>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./icons/Twiter.svg" alt="#"/>
+                                <h5>Pages</h5>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./icons/Pintrest.svg" alt="#"/>
+                                <h5>Services</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5>Blog</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h5>Contact Us</h5>
                             </a>
                         </li>
                     </ul>
                 </div>
+                <a href="#">
+                    <h5 class="header-menu__question">Have Any Questions?</h5>
+                </a>
+            </div>
+        </header>
+
+        <div class="our-services">
+            <div class="our-services__titles general-flex-column">
+                <div class="our-services__titles-text our-services__titles-text__background-color">
+                    <img src="./icons/Vector.svg" alt="#" />
+                    <p class=our-services__titles-text--white >We Provide Electric Services For Industrial Project</p>
+                </div>
+
+                <h1>We Are Professional Quality Services</h1>
+
+                <h5 class="our-services__titles-button">
+                    <a href="#" class="ur-services__titles-button--blue">our Services</a>
+                </h5>
             </div>
         </div>
 
-        <div class="herader-contact-wrapper">
-            <div class="general-content general-flex">
-                <div>
-                    <img src="./icons/Logo.svg" alt="#"/>
+
+        <div class="welcome">
+            <div class="welcome-content general-flex general-content">
+                <div class="welcome-content__img-box">
+                    <img src="./images/workerBlue.svg" alt="#" width="#"/>
                 </div>
 
-                <div class="header-contacts">
-                    <div class="header-contact">
-                        <img src="./icons/mail.svg" alt="#" width="68px" height="68px" />
-                        <div>
-                            <h5>Mail Us</h5>
-                            <p>Info@Example.com</p>
+                <div class="welcome-content__description general-flex-column"> 
+
+                    <div class="welcome-content__description-title general-flex-column">
+                        <div class="general-flex-button general-flex-button--grey">
+                            <img src="./icons/IconBluecollar.svg" alt="#" class="general-flex-button--icon-paddings"/>
+                            <input type="button" value="Welcome BlueCollar" class="general-flex-button--text-paddings"/>
                         </div>
+                        <h2>We Provide Your Future</h2>
                     </div>
 
-                    <div class="header-contact">
-                        <img src="./icons/phone.svg" alt="#" width="68px" height="68px" />
-                        <div>
-                            <h5>Call Us</h5>
-                            <p>+01 569 896 654</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="general-content general-flex header-menu-wrapper">
-            <div class="header-menu">
-                <ul class="general-flex header-menu__list">
-                    <li>
-                        <a href="#">
-                            <h5>Home</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <h5>About Us</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <h5>Pages</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <h5>Services</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <h5>Blog</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <h5>Contact Us</h5>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <a href="#">
-                <h5 class="header-menu__question">Have Any Questions?</h5>
-            </a>
-        </div>
-    </header>
-
-    <div class="our-services">
-        <div class="our-services__titles general-flex-column">
-            <div class="our-services__titles-text our-services__titles-text__background-color">
-                <img src="./icons/Vector.svg" alt="#" />
-                <p class=our-services__titles-text--white >We Provide Electric Services For Industrial Project</p>
-            </div>
-
-            <h1>We Are Professional Quality Services</h1>
-
-            <h5 class="our-services__titles-button">
-                <a href="#" class="ur-services__titles-button--blue">our Services</a>
-            </h5>
-        </div>
-    </div>
-
-
-    <div class="welcome">
-        <div class="welcome-content general-flex general-content">
-            <div class="welcome-content__img-box">
-                <img src="./images/workerBlue.svg" alt="#" width="#"/>
-            </div>
-
-            <div class="welcome-content__description general-flex-column"> 
-
-                <div class="welcome-content__description-title general-flex-column">
-                    <div class="general-flex-button general-flex-button--grey">
-                        <img src="./icons/IconBluecollar.svg" alt="#" class="general-flex-button--icon-paddings"/>
-                        <input type="button" value="Welcome BlueCollar" class="general-flex-button--text-paddings"/>
-                    </div>
-                    <h2>We Provide Your Future</h2>
-                </div>
-
-                <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
-                    In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. 
-                    In pulvinar viverra diam, nec rutrum mauris maximus non. 
-                    Aenean sed quam tristique, facilisis est ac, interdum velit.
-                </p>
-
-                <div class="welcome-content__options">
-                    <div class="welcome-content__options-box general-flex-column welcome-content__options-box--grey">
-                        <div>
-                            <img src="./icons/35.svg" alt="#" />
-                        </div>
-                        <h5>Years Of Experiance</h5>
-                    </div>
-
-                    <div class="welcome-content__options-list general-flex-column">
-                        <p>- Sed varius ipsum lacus</p>
-                        <p>- Pulvinar tortor dignissim sit amet.</p>
-                        <p>- Quisque tristique diam quis placerat</p>
-                        <p>- Quisque tristique diam quis placerat</p>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="main-services general-flex-column">
-        <div class="main-services__content general-content genera general-flex-column" >
-            <div class="main-services__content-titles general-content general-flex-column">
-                <div class="main-services__content-titles-header general-flex-column">
-                    <h2>Professional Main Services</h2>
-                    <p class="main-services__content-titles-description">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi.
-                    In sed pretium metus. Proin pretium id urna sit amet tincidunt.
+                    <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
+                        In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. 
+                        In pulvinar viverra diam, nec rutrum mauris maximus non. 
+                        Aenean sed quam tristique, facilisis est ac, interdum velit.
                     </p>
-                </div>
 
-                <div class="main-services__content-buttons general-flex">
-                    <div class="general-flex-button main-services__content-buttons--border-blue">
-                        <img src="./icons/commerical.svg"  alt="#" class="main-services__content-button--icon"/>
-                        <input type="button" Value="Commercial" class="main-services__content-button--blue" />
-                    </div>
-                    <div class="general-flex-button main-services__content-buttons--border-blue">
-                        <img src="./icons/residential.svg" alt="#" class="main-services__content-button--icon" />
-                        <input type="button" value="Residential" class="main-services__content-button--blue" />
-                    </div>
-                    <div class="general-flex-button main-services__content-buttons--border-blue">
-                        <img src="./icons/industrial.svg" alt="#" class="main-services__content-button--icon"/>
-                        <input type="button" value="Industrial" class="main-services__content-button--blue" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="main-services__description-wrapper">
-                <div class="general-flex">
-                    <div class="main-services__description general-flex-column">
-                        <div class="general-flex-button general-flex-button--grey">
-                            <img src="./icons/commercial-yellow.svg" alt="#" width="28px" height="28px" class=" general-flex-button--icon-paddings" />
-                            <input type="button" value="Based on Commercial" class="general-flex-button--text-paddings " />
-                        </div>
-
-                        <div class="main-services__description-text">
-                            <h2>Commercial</h2>
-                            <p class="main-services__description-paragraph general-flex-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore 
-                                magna aliqua. Ut enim ad minimquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                                commodo consequat.
-                                <span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                                nulla pariatur.ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </span>
-                            </p>
-                        </div>
-
-                        <div class="main-services__description-button">
-                            <input type="button" value="Read More" />
-                        </div>
-                    </div>
-
-                    <div>
-                        <img src="./images/main-services-factory.svg" 
-                        alt="#" 
-                        width="470px" 
-                        height="424px"
-                        class="main-services__description-photo" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="services-wrapper">
-        <div class="services general-content">
-            <div class="services__header-wrapper general-flex">
-                <div class="services-header general-flex-column">
-                    <div class="services-title-gap general-flex-column">
-                        <div class="general-flex-button general-flex-button--white services__button--center ">
-                            <img src="./icons/button-icon.svg" alt="#" width="21px" height="21px" class="general-flex-button--icon-paddings" />
-                            <input type="button" value="Our Services" class="general-flex-button--text-paddings"/>
-                        </div>
-                        <div>
-                            <h2>Our Services</h2>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
-                        In sed pretium metus. Proin pretium id urna sit amet tincidunt.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="services__cards">
-                
-                <div class="services__cards-item">
-                    <img src="./icons/services/AirConditioner.svg" alt="#" width="48px" height="48px"/>
-                    <h4 class="services__cards-utem-title">Air condition service </h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>
-        
-
-        
-                <div class="services__cards-item">
-                    <img src="./icons/services/Substation.svg" alt="#" width="48px" height="48px" />
-                    <h4 class="services__cards-utem-title">Electrical installation</h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>
-            
-
-            
-                <div class="services__cards-item">
-                    <img src="./icons/services/Icon.svg" alt="#" width="48px" height="48px" />
-                    <h4 class="services__cards-utem-title">General Builder</h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>
-            
-
-        
-                <div class="services__cards-item">
-                    <img src="./icons/services/Security.svg" alt="#" width="48px" height="48px" />
-                    <h4 class="services__cards-utem-title">Security System</h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>    
-            
-                
-                <div class="services__cards-item">
-                    <img src="./icons/services/Maintenance.svg" alt="#" width="48px" height="48px" />
-                    <h4 class="services__cards-utem-title">Service & maintenance</h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>
-
-                <div class="services__cards-item">
-                    <img src="./icons/services/HomePage.svg" alt="#" width="48px" height="48px" />
-                    <h4 class="services__cards-utem-title">House Extensions</h4>
-                    <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
-                    <input type="button" value="Read More" class="services__cards-button" />
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <div class="choose">
-            <div class="choose-achievements">
-                <div class="choose-list-content">
-                    <div class="general-flex-column choose-list-box">
-                        <div class="choose-list__item">
-                            <span class="choose-list__number">3956 </span> <h4 class="choose-list__text">Project Done</h4>
-                        </div>
-
-                        <div class="choose-list__item">
-                            <span class="choose-list__number">851</span> <h4 class="choose-list__text">People Working</h4>
-                        </div>
-
-                        <div class="choose-list__item">
-                            <span class="choose-list__number">265</span> <h4 class="choose-list__text">Business Partner</h4>
-                        </div>
-
-                        <div class="choose-list__item">
-                            <span class="choose-list__number">854+</span> <h4 class="choose-list__text">Happy Customers</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="choose-describtion-content general-flex-column">
-                <div class="general-flex-column-two">
-                    <div class="general-flex-button general-flex-button--grey">
-                        <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
-                        <input type="button" value="Why Choose Us" class="general-flex-button--text-paddings"/>
-                    </div>
-
-                    <div class="general-flex-column choose-description__header">
-                        <h2 class="choose-describtion__title">Few Reasons Why You Should Choose Us</h2>
-                        <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
-                            In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. </p>
-                    </div>
-                </div>
-
-                <div class="general-flex-column-two choose-description__list">
-                    <div class="hoose-description__list-item">
-                        <div>
-                            <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
-                        </div>
-
-                        <div>
-                            <h5>35 Years Experiance</h5>
-                            <p>Pellentesque vehicula eros neque, 
-                                maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                        </div>
-                    </div>
-
-                    <div class="hoose-description__list-item"> 
-                        <div>
-                            <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
-                        </div>
-
-                        <div>
-                            <h5>Excellencee Certificate</h5>
-                            <p>Pellentesque vehicula eros neque, 
-                                maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                        </div>
-                    </div>
-
-                    <div class="hoose-description__list-item">
-                        <div>
-                            <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
-                        </div>
-
-                        <div>
-                            <h5>Affordable Price</h5>
-                            <p>Pellentesque vehicula eros neque, 
-                                maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="gallery">
-        <div class="gallery-content">
-            <div class="gallery-header general-flex-column-two">
-                <div class="general-flex-button general-flex-button--grey gallery-header__button">
-                    <img src="./icons/button-icon.svg" alt="#" width="22px" heighr="22px" class=" general-flex-button--icon-paddings" />
-                    <input type="button" value="The Gallery" class=" general-flex-button--text-paddings" />
-                </div>
-                <div>
-                    <h2 class="gallery-content__title--white">Check Our Recent Work </h2>
-                </div>
-
-            </div>
-
-            <div class="gallerry-recent-work">
-                <div class="gallerry-recent-work__item general-flex-column-two">
-                    
-                    <img src="./images/gallery-worker-1.svg" alt="#" width="400px" height="501px" />
-                    <div class="gallerry-recent-work__item-header">
-                        <h4>Electrical & Maintenance</h4>
-                        <p>Electric, Instalation</p>
-                    </div>
-                </div>
-
-                <div class="gallerry-recent-work__item general-flex-column-two">
-                        <img src="./images/gallery-worker-2.svg" alt="#" width="400px" height="501px" />
-                    <div class="gallerry-recent-work__item-header">
-                        <h4>Interior/Exterior Services</h4>
-                        <p>House,  Office </p>
-                    </div>
-
-                </div>
-
-                <div class="gallerry-recent-work__item general-flex-column-two">
-                        <img src="./images/gallery-worker-3.svg" alt="#" width="400px" height="501px" />
-                    <div class="gallerry-recent-work__item-header">
-                        <h4>Car Repair & Maintenance</h4>
-                        <p>Car, Bike, load vehicle</p>
-                    </div>
-                </div>
-
-                <div class="gallerry-recent-work__item general-flex-column-two">
-                        <img src="./images/gallery-worker-4.svg" alt="#" width="400px" height="501px" />
-                    <div class="gallerry-recent-work__item-header">
-                        <h4>Electrical installation</h4>
-                        <p>Instalation </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="appointment">
-        <div class="appointment-content general-content general-flex">
-            <div class="customers general-flex-column-two">
-                <div class="customers-title-box general-flex-column-two">
-                    <div class="general-flex-button general-flex-button--grey">
-                        <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings"/>
-                        <input type="button" value="Testimonial" class="general-flex-button--text-paddings">
-                    </div>
-                    <h3>Customers Says</h3>
-                </div>
-
-                <div class="aappointment__customer-review-wrapper">
-                    <div class="appointment__customer-review">
-                        <div class="appointment__customer-bio-wrapper">
+                    <div class="welcome-content__options">
+                        <div class="welcome-content__options-box general-flex-column welcome-content__options-box--grey">
                             <div>
-                                <div class="appointment__customer-bio">
-                                    <div>
-                                        <img src="./images/testimonial.svg" alt="#" width="70px" height="70px" />
-                                    </div>
-
-                                    <div>
-                                        <h4>Nancy Luther</h4>
-                                        <p>New York</p>
-                                    </div>
-                                </div>
+                                <img src="./icons/35.svg" alt="#" />
                             </div>
-
-                            <div>
-                                <img src="./icons/quotation.svg" alt="#" width="55px" height="55px" />
-                            </div>
+                            <h5>Years Of Experiance</h5>
                         </div>
 
-
-
-                        <div>
-                            <p class="appointment__customer-review-text">Pellentesque vehicula eros neque, maximus mattis est sagittis facilisi.<span>” In sed pretium metus”</span>. 
-                                Pretium id urna sit amet tincidunt. 
-                                Lorem ipsum dolor sit amet,tristique. Duis cursus,in elementum tristique</p>
-                            <div>
-                                <img src="./icons/Navigation.svg" alt="#" width="102px" height="46px" />
-                            </div>
+                        <div class="welcome-content__options-list general-flex-column">
+                            <p>- Sed varius ipsum lacus</p>
+                            <p>- Pulvinar tortor dignissim sit amet.</p>
+                            <p>- Quisque tristique diam quis placerat</p>
+                            <p>- Quisque tristique diam quis placerat</p>
                         </div>
                     </div>
                     
-
-                </div>
-                <div class="appointment__customer-review-footer-wrapper">
-                    <div class="appointment__customer-review-footer general-flex-column">
-                        <div class="general-flex-button general-flex-button--grey">
-                            <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
-                            <input type="button" value="Any Question" class="general-flex-button--text-paddings" />
-                        </div>
-
-                        <div class="apointment__customer-review-footer-text general-flex-column-two">
-                            <h4>99.9% Customer Satisfation Based</h4>
-                            <p class="apointment__customer-review-footer-contact-text">If you have any questions or need help contactwith our team, or call</p>
-                        </div>
-
-                        <div class="apointment__customer-review-footer-number-wrapper">
-                            <img src="./icons/call-icon.svg" alt="#" width="42px" height="42px" />
-                            <h3 class="apointment__customer-review-footer-number">(003) 123 456 7890</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="appointments general-flex-column-two">
-                <div class="appointments-form-title general-flex-column-two">
-                   <div class="general-flex-button general-flex-button--grey">
-                        <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
-                        <input type="button" value="Meet Us" class="general-flex-button--text-paddings" />
-                   </div>
-
-                   <h3>Appointment Form</h3>
-
-                </div>
-
-
-                <div class="appointments__form-wrapper">
-                    <div class="appointments__form general-flex-column-two">
-                        <form class="appointments__form-box general-flex-column-two">
-                            <input type="text" required placeholder="Your Name" />
-                            <input type="email" required placeholder="Email Address" />
-                            <input type="tel" required placeholder="Phone Number" />
-                            <input type="text" required placeholder="Date" />
-                            <textarea name="Service" id="service-description" placeholder="Service Description" class="appointments__form-textarea"></textarea>
-
-                            <div class="appointments__button-wrapper">
-                                <div class="appointments__button--yellow">
-                                    <input type="submit" value="Submit" />
-                                </div>
-                            </div>
-                        </form>  
-                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="appointment__clients-wrapper general-content general-flex-column-two">
-            <div class="general-flex-column-two appointment__clients-title">
-                <div class="general-flex-button general-flex-button--grey appointment__clients-title-button">
-                    <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
-                    <input type="button" value="Clients" class="general-flex-button--text-paddings" />
-                </div>
-
-                <h3>Our Trusted Big Clients!</h3>
-            </div>
-
-            <div class="appointment__clients general-flex">
-                <div class="appointment__clients--item">
-                    <img src="./icons/trustedClients/brideIcon.svg" alt="#" width="46px" height="48px" />
-                    <img src="./icons/trustedClients/Bride.svg" alt="#" width="95px" height="46px" />
-                </div>
-
-                <div class="appointment__clients--item">
-                    <img src="./icons/trustedClients/buildingIcon.svg" alt="#" width="52px" height="52px" />
-                    <img src="./icons/trustedClients/Building.svg" alt="#" width="130px" height="43px" />
-                </div>
-
-                <div class="appointment__clients--item">
-                    <img src="./icons/trustedClients/constructionIcon.svg" alt="#" width="56px" height="56px" />
-                    <img src="./icons/trustedClients/Construction.svg" alt="#" width="120px" height="53px" />
-                </div>
-
-                <div class="appointment__clients--item">
-                    <img src="./icons/trustedClients/companyIcon.svg" alt="#" width="50px" height="50px" />
-                    <img src="./icons/trustedClients/Cpmpany.svg" alt="#" width="157px" height="54px" />
-                </div>
-            </div>
-        </div>
-        
-    </div>
-
-    <div class="pricing-background">
-        <div class="pricing-wrapper general-content general-flex-column-two">
-            <div class="pricing-content general-flex-column-two">
-                <div class="pricing__header">
-                    <div class="pricing__header-title-wrapper general-flex-column-two">
-                        <div class="general-flex-button general-flex-button--white">
-                            <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
-                            <input type="button" value=" Price and Plan" class="general-flex-button--text-paddings" />
-                        </div>
-
-                        <h2>Let’s Customize Work
-                            With Affordable Price</h2>
-                    </div>
-
-                    <div class="pricing__header-text-wrapper">
-                        <p class="pricing__header-text">
-                            Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
-                            In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+        <div class="main-services general-flex-column">
+            <div class="main-services__content general-content genera general-flex-column" >
+                <div class="main-services__content-titles general-content general-flex-column">
+                    <div class="main-services__content-titles-header general-flex-column">
+                        <h2>Professional Main Services</h2>
+                        <p class="main-services__content-titles-description">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi.
+                        In sed pretium metus. Proin pretium id urna sit amet tincidunt.
                         </p>
                     </div>
-                </div>
 
-
-
-                <div class="pricing">
-
-                    <div class="pricing__item--wrapper">
-                        <div class="pricing__item-header-wrapper">
-                            <div class="pricing__item-header">
-                                <div class="pricimg__item-header-title general-flex-column-two">
-                                    <h5>Basic Plan</h5>
-                                    <h3>$ 599.00</h3>
-                                </div>
-
-                                <div>
-                                    <p>Per Visit Charge</p>
-                                </div>
-                            </div>
+                    <div class="main-services__content-buttons general-flex">
+                        <div class="general-flex-button main-services__content-buttons--border-blue">
+                            <img src="./icons/commerical.svg"  alt="#" class="main-services__content-button--icon"/>
+                            <input type="button" Value="Commercial" class="main-services__content-button--blue" />
                         </div>
-
-                        <div class="pricing__list--wrapper general-flex-column-two">
-                            <div class="pricing__list">
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Electric Services</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Distribution Power Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>High & Medium Voltages</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Industrial Control Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Generator Instalations</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Innovative Construction</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Switch Instalations</p>
-                                </div>
-                            </div>
-
-
-                            <div class="pricing__button">
-                                <input type="button" value="Buy Now" />
-                            </div>
-
+                        <div class="general-flex-button main-services__content-buttons--border-blue">
+                            <img src="./icons/residential.svg" alt="#" class="main-services__content-button--icon" />
+                            <input type="button" value="Residential" class="main-services__content-button--blue" />
                         </div>
-                    </div>
-                    
-
-
-                    <div class="pricing__item--wrapper">
-                        <div class="pricing__item-header-wrapper">
-                            <div class="pricing__item-header">
-                                <div class="pricimg__item-header-title general-flex-column-two">
-                                    <h5>Standard</h5>
-                                    <h3>$ 699.00</h3>
-                                </div>
-
-                                <div class="pricing__item-popular general-flex-column-two">
-                                    <p>POPULAR</p>
-                                    <p>Per Visit Charge</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pricing__list--wrapper general-flex-column-two">
-                            <div class="pricing__list">
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Electric Services</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Distribution Power Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>High & Medium Voltages</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Industrial Control Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Generator Instalations</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Innovative Construction</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Switch Instalations</p>
-                                </div>
-                            </div>
-
-
-                            <div class="pricing__button--white">
-                                <input type="button" value="Buy Now" />
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div class="pricing__item--wrapper">
-                        <div class="pricing__item-header-wrapper">
-                            <div class="pricing__item-header">
-                                <div class="pricimg__item-header-title general-flex-column-two">
-                                    <h5>Basic Plan</h5>
-                                    <h3>$ $ 799.00</h3>
-                                </div>
-
-                                <div>
-                                    <p>Per Visit Charge</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pricing__list--wrapper general-flex-column-two">
-                            <div class="pricing__list">
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Electric Services</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Distribution Power Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>High & Medium Voltages</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Industrial Control Systems</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Generator Instalations</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Innovative Construction</p>
-                                </div>
-
-                                <div>
-                                    <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
-                                    <p>Switch Instalations</p>
-                                </div>
-                            </div>
-
-
-                            <div class="pricing__button">
-                                <input type="button" value="Buy Now" />
-                            </div>
-
+                        <div class="general-flex-button main-services__content-buttons--border-blue">
+                            <img src="./icons/industrial.svg" alt="#" class="main-services__content-button--icon"/>
+                            <input type="button" value="Industrial" class="main-services__content-button--blue" />
                         </div>
                     </div>
                 </div>
 
-                
-                <div class="pricing-footer">
-                    <div class="pricing-footer__points gene general-flex">
-                        <div class="pricing-footer__points-content">
-                            <div>
-                                <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                <div class="main-services__description-wrapper">
+                    <div class="general-flex">
+                        <div class="main-services__description general-flex-column">
+                            <div class="general-flex-button general-flex-button--grey">
+                                <img src="./icons/commercial-yellow.svg" alt="#" width="28px" height="28px" class=" general-flex-button--icon-paddings" />
+                                <input type="button" value="Based on Commercial" class="general-flex-button--text-paddings " />
                             </div>
 
-                            <div class="pricing-footer__points-content-text general-flex-column-two ">
-                                <h5>Affordable Price</h5>
-                                <p>lacinia, tempor lacus at, eleifend diam. Maecenas tempus tincidunt placeratneque, maximus mattis </p>
+                            <div class="main-services__description-text">
+                                <h2>Commercial</h2>
+                                <p class="main-services__description-paragraph general-flex-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minimquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                                    commodo consequat.
+                                    <span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                    nulla pariatur.ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="main-services__description-button">
+                                <input type="button" value="Read More" />
                             </div>
                         </div>
 
-
-                        <div class="pricing-footer__points-content">
-                            <div>
-                                <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
-                            </div>
-
-                            <div class="pricing-footer__points-content-text general-flex-column-two ">
-                                <h5>Fixed Plan</h5>
-                                <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
-                            </div>
+                        <div>
+                            <img src="./images/main-services-factory.svg" 
+                            alt="#" 
+                            width="470px" 
+                            height="424px"
+                            class="main-services__description-photo" />
                         </div>
                     </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="services-wrapper">
+            <div class="services general-content">
+                <div class="services__header-wrapper general-flex">
+                    <div class="services-header general-flex-column">
+                        <div class="services-title-gap general-flex-column">
+                            <div class="general-flex-button general-flex-button--white services__button--center ">
+                                <img src="./icons/button-icon.svg" alt="#" width="21px" height="21px" class="general-flex-button--icon-paddings" />
+                                <input type="button" value="Our Services" class="general-flex-button--text-paddings"/>
+                            </div>
+                            <div>
+                                <h2>Our Services</h2>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
+                            In sed pretium metus. Proin pretium id urna sit amet tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__cards">
+                    
+                    <div class="services__cards-item">
+                        <img src="./icons/services/AirConditioner.svg" alt="#" width="48px" height="48px"/>
+                        <h4 class="services__cards-utem-title">Air condition service </h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>
+            
+
+            
+                    <div class="services__cards-item">
+                        <img src="./icons/services/Substation.svg" alt="#" width="48px" height="48px" />
+                        <h4 class="services__cards-utem-title">Electrical installation</h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>
+                
+
+                
+                    <div class="services__cards-item">
+                        <img src="./icons/services/Icon.svg" alt="#" width="48px" height="48px" />
+                        <h4 class="services__cards-utem-title">General Builder</h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>
+                
+
+            
+                    <div class="services__cards-item">
+                        <img src="./icons/services/Security.svg" alt="#" width="48px" height="48px" />
+                        <h4 class="services__cards-utem-title">Security System</h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>    
+                
+                    
+                    <div class="services__cards-item">
+                        <img src="./icons/services/Maintenance.svg" alt="#" width="48px" height="48px" />
+                        <h4 class="services__cards-utem-title">Service & maintenance</h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>
+
+                    <div class="services__cards-item">
+                        <img src="./icons/services/HomePage.svg" alt="#" width="48px" height="48px" />
+                        <h4 class="services__cards-utem-title">House Extensions</h4>
+                        <p class="services__cards-item-text">Sagittis Nulla facilisi. In sed pretium metus. Proin pretium Turna sit amet tincidunt.</p>
+                        <input type="button" value="Read More" class="services__cards-button" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="choose">
+                <div class="choose-achievements">
+                    <div class="choose-list-content">
+                        <div class="general-flex-column choose-list-box">
+                            <div class="choose-list__item">
+                                <span class="choose-list__number">3956 </span> <h4 class="choose-list__text">Project Done</h4>
+                            </div>
+
+                            <div class="choose-list__item">
+                                <span class="choose-list__number">851</span> <h4 class="choose-list__text">People Working</h4>
+                            </div>
+
+                            <div class="choose-list__item">
+                                <span class="choose-list__number">265</span> <h4 class="choose-list__text">Business Partner</h4>
+                            </div>
+
+                            <div class="choose-list__item">
+                                <span class="choose-list__number">854+</span> <h4 class="choose-list__text">Happy Customers</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="choose-describtion-content general-flex-column">
+                    <div class="general-flex-column-two">
+                        <div class="general-flex-button general-flex-button--grey">
+                            <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                            <input type="button" value="Why Choose Us" class="general-flex-button--text-paddings"/>
+                        </div>
+
+                        <div class="general-flex-column choose-description__header">
+                            <h2 class="choose-describtion__title">Few Reasons Why You Should Choose Us</h2>
+                            <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
+                                In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada. </p>
+                        </div>
+                    </div>
+
+                    <div class="general-flex-column-two choose-description__list">
+                        <div class="hoose-description__list-item">
+                            <div>
+                                <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                            </div>
+
+                            <div>
+                                <h5>35 Years Experiance</h5>
+                                <p>Pellentesque vehicula eros neque, 
+                                    maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                            </div>
+                        </div>
+
+                        <div class="hoose-description__list-item"> 
+                            <div>
+                                <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                            </div>
+
+                            <div>
+                                <h5>Excellencee Certificate</h5>
+                                <p>Pellentesque vehicula eros neque, 
+                                    maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                            </div>
+                        </div>
+
+                        <div class="hoose-description__list-item">
+                            <div>
+                                <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                            </div>
+
+                            <div>
+                                <h5>Affordable Price</h5>
+                                <p>Pellentesque vehicula eros neque, 
+                                    maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-content">
+                <div class="gallery-header general-flex-column-two">
+                    <div class="general-flex-button general-flex-button--grey gallery-header__button">
+                        <img src="./icons/button-icon.svg" alt="#" width="22px" heighr="22px" class=" general-flex-button--icon-paddings" />
+                        <input type="button" value="The Gallery" class=" general-flex-button--text-paddings" />
+                    </div>
+                    <div>
+                        <h2 class="gallery-content__title--white">Check Our Recent Work </h2>
+                    </div>
+
+                </div>
+
+                <div class="gallerry-recent-work">
+                    <div class="gallerry-recent-work__item general-flex-column-two">
+                        
+                        <img src="./images/gallery-worker-1.svg" alt="#" width="400px" height="501px" />
+                        <div class="gallerry-recent-work__item-header">
+                            <h4>Electrical & Maintenance</h4>
+                            <p>Electric, Instalation</p>
+                        </div>
+                    </div>
+
+                    <div class="gallerry-recent-work__item general-flex-column-two">
+                            <img src="./images/gallery-worker-2.svg" alt="#" width="400px" height="501px" />
+                        <div class="gallerry-recent-work__item-header">
+                            <h4>Interior/Exterior Services</h4>
+                            <p>House,  Office </p>
+                        </div>
+
+                    </div>
+
+                    <div class="gallerry-recent-work__item general-flex-column-two">
+                            <img src="./images/gallery-worker-3.svg" alt="#" width="400px" height="501px" />
+                        <div class="gallerry-recent-work__item-header">
+                            <h4>Car Repair & Maintenance</h4>
+                            <p>Car, Bike, load vehicle</p>
+                        </div>
+                    </div>
+
+                    <div class="gallerry-recent-work__item general-flex-column-two">
+                            <img src="./images/gallery-worker-4.svg" alt="#" width="400px" height="501px" />
+                        <div class="gallerry-recent-work__item-header">
+                            <h4>Electrical installation</h4>
+                            <p>Instalation </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="appointment">
+            <div class="appointment-content general-content general-flex">
+                <div class="customers general-flex-column-two">
+                    <div class="customers-title-box general-flex-column-two">
+                        <div class="general-flex-button general-flex-button--grey">
+                            <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings"/>
+                            <input type="button" value="Testimonial" class="general-flex-button--text-paddings">
+                        </div>
+                        <h3>Customers Says</h3>
+                    </div>
+
+                    <div class="aappointment__customer-review-wrapper">
+                        <div class="appointment__customer-review">
+                            <div class="appointment__customer-bio-wrapper">
+                                <div>
+                                    <div class="appointment__customer-bio">
+                                        <div>
+                                            <img src="./images/testimonial.svg" alt="#" width="70px" height="70px" />
+                                        </div>
+
+                                        <div>
+                                            <h4>Nancy Luther</h4>
+                                            <p>New York</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <img src="./icons/quotation.svg" alt="#" width="55px" height="55px" />
+                                </div>
+                            </div>
 
 
 
+                            <div>
+                                <p class="appointment__customer-review-text">Pellentesque vehicula eros neque, maximus mattis est sagittis facilisi.<span>” In sed pretium metus”</span>. 
+                                    Pretium id urna sit amet tincidunt. 
+                                    Lorem ipsum dolor sit amet,tristique. Duis cursus,in elementum tristique</p>
+                                <div>
+                                    <img src="./icons/Navigation.svg" alt="#" width="102px" height="46px" />
+                                </div>
+                            </div>
+                        </div>
+                        
 
-</body>
-</html> 
+                    </div>
+                    <div class="appointment__customer-review-footer-wrapper">
+                        <div class="appointment__customer-review-footer general-flex-column">
+                            <div class="general-flex-button general-flex-button--grey">
+                                <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                                <input type="button" value="Any Question" class="general-flex-button--text-paddings" />
+                            </div>
+
+                            <div class="apointment__customer-review-footer-text general-flex-column-two">
+                                <h4>99.9% Customer Satisfation Based</h4>
+                                <p class="apointment__customer-review-footer-contact-text">If you have any questions or need help contactwith our team, or call</p>
+                            </div>
+
+                            <div class="apointment__customer-review-footer-number-wrapper">
+                                <img src="./icons/call-icon.svg" alt="#" width="42px" height="42px" />
+                                <h3 class="apointment__customer-review-footer-number">(003) 123 456 7890</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="appointments general-flex-column-two">
+                    <div class="appointments-form-title general-flex-column-two">
+                    <div class="general-flex-button general-flex-button--grey">
+                            <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                            <input type="button" value="Meet Us" class="general-flex-button--text-paddings" />
+                    </div>
+
+                    <h3>Appointment Form</h3>
+
+                    </div>
+
+
+                    <div class="appointments__form-wrapper">
+                        <div class="appointments__form general-flex-column-two">
+                            <form class="appointments__form-box general-flex-column-two">
+                                <input type="text" required placeholder="Your Name" />
+                                <input type="email" required placeholder="Email Address" />
+                                <input type="tel" required placeholder="Phone Number" />
+                                <input type="text" required placeholder="Date" />
+                                <textarea name="Service" id="service-description" placeholder="Service Description" class="appointments__form-textarea"></textarea>
+
+                                <div class="appointments__button-wrapper">
+                                    <div class="appointments__button--yellow">
+                                        <input type="submit" value="Submit" />
+                                    </div>
+                                </div>
+                            </form>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="appointment__clients-wrapper general-content general-flex-column-two">
+                <div class="general-flex-column-two appointment__clients-title">
+                    <div class="general-flex-button general-flex-button--grey appointment__clients-title-button">
+                        <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                        <input type="button" value="Clients" class="general-flex-button--text-paddings" />
+                    </div>
+
+                    <h3>Our Trusted Big Clients!</h3>
+                </div>
+
+                <div class="appointment__clients general-flex">
+                    <div class="appointment__clients--item">
+                        <img src="./icons/trustedClients/brideIcon.svg" alt="#" width="46px" height="48px" />
+                        <img src="./icons/trustedClients/Bride.svg" alt="#" width="95px" height="46px" />
+                    </div>
+
+                    <div class="appointment__clients--item">
+                        <img src="./icons/trustedClients/buildingIcon.svg" alt="#" width="52px" height="52px" />
+                        <img src="./icons/trustedClients/Building.svg" alt="#" width="130px" height="43px" />
+                    </div>
+
+                    <div class="appointment__clients--item">
+                        <img src="./icons/trustedClients/constructionIcon.svg" alt="#" width="56px" height="56px" />
+                        <img src="./icons/trustedClients/Construction.svg" alt="#" width="120px" height="53px" />
+                    </div>
+
+                    <div class="appointment__clients--item">
+                        <img src="./icons/trustedClients/companyIcon.svg" alt="#" width="50px" height="50px" />
+                        <img src="./icons/trustedClients/Cpmpany.svg" alt="#" width="157px" height="54px" />
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="pricing-background">
+            <div class="pricing-wrapper general-content general-flex-column-two">
+                <div class="pricing-content general-flex-column-two">
+                    <div class="pricing__header">
+                        <div class="pricing__header-title-wrapper general-flex-column-two">
+                            <div class="general-flex-button general-flex-button--white">
+                                <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                                <input type="button" value=" Price and Plan" class="general-flex-button--text-paddings" />
+                            </div>
+
+                            <h2>Let's Customize Work
+                                With Affordable Price</h2>
+                        </div>
+
+                        <div class="pricing__header-text-wrapper">
+                            <p class="pricing__header-text">
+                                Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. 
+                                In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="pricing">
+
+                        <div class="pricing__item--wrapper">
+                            <div class="pricing__item-header-wrapper">
+                                <div class="pricing__item-header">
+                                    <div class="pricimg__item-header-title general-flex-column-two">
+                                        <h5>Basic Plan</h5>
+                                        <h3>$ 599.00</h3>
+                                    </div>
+
+                                    <div>
+                                        <p>Per Visit Charge</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pricing__list--wrapper general-flex-column-two">
+                                <div class="pricing__list">
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Electric Services</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Distribution Power Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>High & Medium Voltages</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Industrial Control Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Generator Instalations</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Innovative Construction</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Switch Instalations</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="pricing__button">
+                                    <input type="button" value="Buy Now" />
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="pricing__item--wrapper">
+                            <div class="pricing__item-header-wrapper">
+                                <div class="pricing__item-header">
+                                    <div class="pricimg__item-header-title general-flex-column-two">
+                                        <h5>Standard</h5>
+                                        <h3>$ 699.00</h3>
+                                    </div>
+
+                                    <div class="pricing__item-popular general-flex-column-two">
+                                        <p>POPULAR</p>
+                                        <p>Per Visit Charge</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pricing__list--wrapper general-flex-column-two">
+                                <div class="pricing__list">
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Electric Services</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Distribution Power Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>High & Medium Voltages</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Industrial Control Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Generator Instalations</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Innovative Construction</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Switch Instalations</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="pricing__button--white">
+                                    <input type="button" value="Buy Now" />
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="pricing__item--wrapper">
+                            <div class="pricing__item-header-wrapper">
+                                <div class="pricing__item-header">
+                                    <div class="pricimg__item-header-title general-flex-column-two">
+                                        <h5>Basic Plan</h5>
+                                        <h3>$ $ 799.00</h3>
+                                    </div>
+
+                                    <div>
+                                        <p>Per Visit Charge</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pricing__list--wrapper general-flex-column-two">
+                                <div class="pricing__list">
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Electric Services</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Distribution Power Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>High & Medium Voltages</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Industrial Control Systems</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Generator Instalations</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Innovative Construction</p>
+                                    </div>
+
+                                    <div>
+                                        <img src="./icons/pricingTick.svg" alt="#" width="17px" height="17px" />
+                                        <p>Switch Instalations</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="pricing__button">
+                                    <input type="button" value="Buy Now" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="pricing-footer">
+                        <div class="pricing-footer__points gene general-flex">
+                            <div class="pricing-footer__points-content">
+                                <div>
+                                    <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                                </div>
+
+                                <div class="pricing-footer__points-content-text general-flex-column-two ">
+                                    <h5>Affordable Price</h5>
+                                    <p>lacinia, tempor lacus at, eleifend diam. Maecenas tempus tincidunt placeratneque, maximus mattis </p>
+                                </div>
+                            </div>
+
+
+                            <div class="pricing-footer__points-content">
+                                <div>
+                                    <img src="./icons/tick.svg" alt="#" width="32px" height="32px" />
+                                </div>
+
+                                <div class="pricing-footer__points-content-text general-flex-column-two ">
+                                    <h5>Fixed Plan</h5>
+                                    <p>Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium </p>
+                                </div>
+                            </div>
+                   
+                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="blog-background">
+            <div class="blog-content general-flex-column-two general-content">
+                <div class="blog-content__title general-flex-column-two">
+                    <div class="general-flex-button general-flex-button--grey blog-content__title-button">
+                        <img src="./icons/button-icon.svg" alt="#" width="22px" height="22px" class="general-flex-button--icon-paddings" />
+                        <input type="button" value="Blog & Articles" class="general-flex-button--text-paddings" />
+                    </div>
+            
+                    <div>
+                        <h2>Latest News and Articles</h2>
+                    </div>
+                </div>
+            
+            
+                <div class="blog-content__items general-flex">
+            
+                    <div class="blog-content__items-one">
+                        <div>
+                            <img src="./images/blog-photo-1.svg" alt="#" width="584px" width="361px" />
+                        </div>
+            
+                        <div class="general-flex-column-two">
+                            <div class="blog-content__items-admin general-flex-two">
+                                <div class="general-flex-two blog-content__items-admin-button-one">
+                                    <img src="./icons/human-icon.svg" alt="#" width="18px" height="20px" />
+                                    <p>John Kennis</p>
+                                </div>
+            
+                                <div class="general-flex-two blog-content__items-admin-button-two">
+                                    <img src="./icons/clock-icon.svg" alt="#" width="18px" height="18px" />
+                                    <p>April 2, 2022</p>
+                                </div>
+                            </div>
+            
+                            <div class="general-flex-column-two blog-content__items-wrapper">
+                                <div class="blog-content__items-texts general-flex-column-two">
+                                    <h4 class="blog-content__items-title">Improve Workflow With bluecollar Construction</h4>
+                                    <p class="blog-content__items-text">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.</p>
+                                </div>
+                
+                                <div>
+                                    <input type="button" value="Read More >" />
+                                </div>
+                            </div>            
+                        </div>
+                        
+            
+                    </div>
+            
+            
+                    <div class="blog-content__items-one">
+                        <div>
+                            <img src="./images/blog-photo-2.svg" alt="#" width="584px" width="361px" />
+                        </div>
+            
+                        <div class="general-flex-column-two">
+                            <div class="blog-content__items-admin general-flex-two">
+                                <div class="general-flex-two blog-content__items-admin-button-one">
+                                    <img src="./icons/human-icon.svg" alt="#" width="18px" height="20px" />
+                                    <p>John Kennis</p>
+                                </div>
+            
+                                <div class="general-flex-two blog-content__items-admin-button-two">
+                                    <img src="./icons/clock-icon.svg" alt="#" width="18px" height="18px" />
+                                    <p>April 2, 2022</p>
+                                </div>
+                            </div>
+            
+                            <div class="general-flex-column-two blog-content__items-wrapper">
+                                <div class="blog-content__items-texts general-flex-column-two">
+                                    <h4 class="blog-content__items-title">Understanding Your Home's Electrical Capacity</h4>
+                                    <p class="blog-content__items-text">Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. 
+                                        Proin pretium id urna sit amet tincidunt. Interdum et malesuada.</p>
+                                </div>
+                
+                                <div>
+                                    <input type="button" value="Read More >" />
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

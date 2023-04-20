@@ -115,6 +115,11 @@ input[type=submit] {
     flex: 1 1 auto;
 }
 
+.general-flex-two {
+    display: flex;
+    align-items: center;
+}
+
 .general-flex-button {
     display: flex;
     align-self: flex-start;
@@ -802,4 +807,54 @@ div.main-services__content-buttons div:first-child {
 
 .pricing-footer__points-content-text {
     gap: 5px;
+}
+
+.blog-content__title {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-content__title-button {
+    align-self: center;
+}
+
+.blog-content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    gap: 40px;
+}
+
+.blog-content__items-admin {
+    justify-content: center;
+    position: relative;
+    bottom: 35px;
+}
+
+.blog-content__items-admin-button-one {
+    gap: 10px;
+    padding: 20px 30px;
+    background-color:  rgba(255, 195, 104, 1);
+}
+
+.blog-content__items-admin-button-two {
+    gap: 10px;
+    padding: 20px 30px;
+    background-color: var(--yellow);
+}
+
+.blog-content__items-title {
+    font-size: 30px;
+}
+
+.blog-content__items-texts {
+    gap: 9px;
+}
+
+.blog-content__items-wrapper {
+    gap: 26px;
+}
+
+.blog-content__items-text {
+    line-height: 144.52%;
 }
