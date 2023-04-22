@@ -895,3 +895,83 @@ div.main-services__content-buttons div:first-child {
     border: none;
     background-color: var(--yellow);
 }
+
+.footer-wrapper {
+    background-color: var(--blue);
+}
+
+.footer {
+    padding-top: 35px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #4B557D;
+}
+
+.footer-text-color {
+    color: var(--white)
+}
+
+.footer-contact-font {
+    font-size: 17px;
+}
+
+.footer__contact-content-item {
+    gap: 11px;
+    align-items: center;
+}
+
+.footer__contact-content-item-text {
+    gap: 2px;
+}
+
+.footer__contact {
+    gap: 126px;
+}
+
+.footer__contact-content {
+    gap: 60px;
+}
+
+.footer-text-color ~ a {
+    color: var(--white);
+}
+
+.general-content {
+    gap: 56px;
+}
+
+.footer__about-socials {
+    gap: 15px;
+}
+
+.footer__exlore-links {
+    max-width: 462px;
+    padding-bottom: 32px;
+    gap: 66px;
+    padding-right: 66px;
+    padding-left: 66px;
+    border-left: 1px solid #4B557D;
+    border-right: 1px solid #4B557D;;
+}
+
+.footer__about {
+    max-width: 440px;
+    padding-right: 66px;
+    gap: 60px;
+    padding-bottom: 32px;
+}
+
+.footer__utility-pages {
+    padding-left: 66px;
+    padding-bottom: 32px;
+}
+
+.footer__exlore-links-gap {
+    gap: 13px;
+}
+
+.footer__copyright {
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.
